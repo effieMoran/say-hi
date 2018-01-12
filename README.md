@@ -1,5 +1,55 @@
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
+TECNICHALL EXCERCISE:
+Create a component or a group of components that brings a form with:
+- Name
+- Country (From a countries dropdown)
+- Birthdate
+
+Once  the form is saved, it should show a message that says:
+
+Hello {name} from {Country}. The day {day} of {month} you will have {years}
+years
+
+In addition to that it needs to show a  list with every register done.
+
+To get the Countries it must use the following API:
+https://restcountries.eu/rest/v2/all
+
+Extra features:
+
+- If you click on one of the previous visitors it redraws the greeting.
+- Using Coding Standar.
+- Using Flux.
+- Using Sass / Less.
+
+ORIGINAL MOTTO:
+
+EJERCICIO TÉCNICO:
+
+Crear un componente o un grupo de componentes que traigan un formulario con:
+
+- Nombre
+- Pais (sacado de un dropdown de paises)
+- Año de nacimiento
+
+Una vez se guarda el formulario, este debe mostrar un mensaje que diga.
+
+Hola {nombre} de {Pais}. el dia {dia} del {mes} tendrás {años}
+
+A parte se tiene que mostrar una lista con todos los registros hechos.
+
+Para los paises se debe usar la siguiente API:
+https://restcountries.eu/rest/v2/all
+
+Puntos extra si:
+
+- Si Cuando haces click en uno de los anteriores visitantes redibuja la leyenda del Saludo.
+- Si se usa Coding Standard
+- Si se usa Flux
+- Si se Sass / less
+
+
 Below you will find some information on how to perform common tasks.<br>
 You can find the most recent version of this guide [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
 
@@ -284,7 +334,7 @@ In the WebStorm menu `Run` select `Edit Configurations...`. Then click `+` and s
 
 Start your app by running `npm start`, then press `^D` on macOS or `F9` on Windows and Linux or click the green debug icon to start debugging in WebStorm.
 
-The same way you can debug your application in IntelliJ IDEA Ultimate, PhpStorm, PyCharm Pro, and RubyMine. 
+The same way you can debug your application in IntelliJ IDEA Ultimate, PhpStorm, PyCharm Pro, and RubyMine.
 
 ## Formatting Code Automatically
 
@@ -1822,7 +1872,7 @@ If you’re using [Apache HTTP Server](https://httpd.apache.org/), you need to c
     RewriteRule ^ index.html [QSA,L]
 ```
 
-It will get copied to the `build` folder when you run `npm run build`. 
+It will get copied to the `build` folder when you run `npm run build`.
 
 If you’re using [Apache Tomcat](http://tomcat.apache.org/), you need to follow [this Stack Overflow answer](https://stackoverflow.com/a/41249464/4878474).
 
@@ -2218,7 +2268,7 @@ To resolve this:
 1. Open an issue on the dependency's issue tracker and ask that the package be published pre-compiled.
   * Note: Create React App can consume both CommonJS and ES modules. For Node.js compatibility, it is recommended that the main entry point is CommonJS. However, they can optionally provide an ES module entry point with the `module` field in `package.json`. Note that **even if a library provides an ES Modules version, it should still precompile other ES6 features to ES5 if it intends to support older browsers**.
 
-2. Fork the package and publish a corrected version yourself. 
+2. Fork the package and publish a corrected version yourself.
 
 3. If the dependency is small enough, copy it to your `src/` folder and treat it as application code.
 
