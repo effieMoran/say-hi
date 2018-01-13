@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../../styles/App.css';
 
-class Form extends React.Component {
+class Form extends Component {
   constructor(props) {
     super(props);
     this.state = {value: ''};
@@ -15,7 +15,7 @@ class Form extends React.Component {
   }
 
   handleSubmit(event) {
-    alert('A name was submitted: ' + this.state.value);
+    alert('Buenas ' + this.state.value);
     event.preventDefault();
   }
 
@@ -23,7 +23,7 @@ class Form extends React.Component {
     return (
       <form onSubmit={this.handleSubmit}>
         <label>
-          Name:
+          Nombre:
           <input type="text" value={this.state.value} onChange={this.handleChange} />
         </label>
         <br/>
